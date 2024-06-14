@@ -1,0 +1,40 @@
+.field {
+    box-sizing: border-box;
+    height: 95vh;
+    width: 100%;
+}
+.mainMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.stats {
+    text-align: center;
+}
+.stats > p {
+    font-size: 3vw;
+}
+.btn {
+    width: 5vw;
+    height: 2.5vw;
+    font-family: cursive;
+    border-radius: 1vw;
+    border: solid 2px #000;
+    background-color: #fff;
+}
+.btn:active {
+    color: #fff;
+}
+.btn:hover {
+    border: none;
+}
+.hud {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4vw;
+}
+.hud > span {
+    font-size: 1.5vw;
+}
